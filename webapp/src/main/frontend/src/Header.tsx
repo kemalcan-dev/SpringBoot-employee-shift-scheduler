@@ -98,7 +98,7 @@ const Header = () => {
                         <LocalesMenuButton
                             languages={[
                                 { locale: 'en', name: 'English' },
-                                { locale: 'it', name: 'Italiano' },
+                                { locale: 'tr', name: 'Turkish' },
                             ]}
                         />
                         <LoadingIndicator

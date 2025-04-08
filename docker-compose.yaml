@@ -40,6 +40,13 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf
     networks:
       - backend
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+    networks:
+      - backend
 volumes: 
   db:
 networks:
